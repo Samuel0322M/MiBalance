@@ -1,6 +1,8 @@
 import matplotlib
 matplotlib.use('Agg')           # Backend sin ventana gráfica (guarda en archivo)
 import matplotlib.pyplot as plt
+import sys
+sys.stdout.reconfigure(encoding='utf-8')
 
 
 # =============================================================================
